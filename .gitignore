@@ -1,0 +1,12 @@
+# Teacher-only answers. Keep these local during the course.
+lessons/**/*solutions*.py
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Files students generate while running lessons
+output/
+
+.DS_Store

@@ -1,0 +1,11 @@
+# Lesson 01 起使用
+requests>=2.32,<3
+
+# 之後依各堂需要加入，例如：
+# beautifulsoup4, lxml        (Lesson 03)
+# pandas, matplotlib          (Lesson 05)
+# selenium                    (Lesson 08)
+# pillow                      (Lesson 10)
+# jieba, wordcloud            (Lesson 14)
+# seaborn, plotly             (Lesson 15–16)
+# networkx                    (Lesson 17)

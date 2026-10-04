@@ -1,0 +1,2202 @@
+{
+"p1": {
+"index": 1,
+"elements": [
+{
+"id": "p1_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p1_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p1_i3",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p1_i4",
+"text": "Open Data 與專案工作坊（一）",
+"kind": "shape"
+},
+{
+"id": "p1_i5",
+"text": "選資料、問問題、清理資料，完成第一版分析",
+"kind": "shape"
+},
+{
+"id": "p1_i6",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p1_i7",
+"text": "OPEN\nDATA",
+"kind": "shape"
+},
+{
+"id": "p1_i8",
+"text": "從課堂練習\n走到可分享作品",
+"kind": "shape"
+},
+{
+"id": "p1_i9",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p1_i10",
+"text": "問題 → 證據 → 結論 → 分享",
+"kind": "shape"
+},
+{
+"id": "p1_i11",
+"text": "JW｜課程講師",
+"kind": "shape"
+}
+]
+},
+"p2": {
+"index": 2,
+"elements": [
+{
+"id": "p2_i27",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i2",
+"text": "課堂任務",
+"kind": "shape"
+},
+{
+"id": "p2_i3",
+"text": "今天下課前，要留下四個看得見的成果",
+"kind": "shape"
+},
+{
+"id": "p2_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i5",
+"text": "02",
+"kind": "shape"
+},
+{
+"id": "p2_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p2_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i9",
+"text": "1",
+"kind": "shape"
+},
+{
+"id": "p2_i10",
+"text": "資料身分證",
+"kind": "shape"
+},
+{
+"id": "p2_i11",
+"text": "來源、下載日期、授權方式，以及是否含個人資料。",
+"kind": "shape"
+},
+{
+"id": "p2_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i14",
+"text": "2",
+"kind": "shape"
+},
+{
+"id": "p2_i15",
+"text": "三個問題",
+"kind": "shape"
+},
+{
+"id": "p2_i16",
+"text": "每個問題都能對應欄位、指標與分析方法。",
+"kind": "shape"
+},
+{
+"id": "p2_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i18",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i19",
+"text": "3",
+"kind": "shape"
+},
+{
+"id": "p2_i20",
+"text": "乾淨資料",
+"kind": "shape"
+},
+{
+"id": "p2_i21",
+"text": "缺值、重複、型態與異常值都有處理決策。",
+"kind": "shape"
+},
+{
+"id": "p2_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i23",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p2_i24",
+"text": "4",
+"kind": "shape"
+},
+{
+"id": "p2_i25",
+"text": "初步發現",
+"kind": "shape"
+},
+{
+"id": "p2_i26",
+"text": "至少兩項分組結果、一個限制與下一步。",
+"kind": "shape"
+}
+]
+},
+"p3": {
+"index": 3,
+"elements": [
+{
+"id": "p3_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p3_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p3_i3",
+"text": "從練習題走向專題，最大的改變是什麼？",
+"kind": "shape"
+},
+{
+"id": "p3_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p3_i5",
+"text": "03",
+"kind": "shape"
+},
+{
+"id": "p3_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p3_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p3_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p3_i9",
+"text": "你不再只回答老師的問題，\n而是自己決定什麼值得問。",
+"kind": "shape"
+},
+{
+"id": "p3_i10",
+"text": "程式碼是工具；問題、證據與限制，才構成一份分析作品。",
+"kind": "shape"
+}
+]
+},
+"p4": {
+"index": 4,
+"elements": [
+{
+"id": "p4_i31",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i2",
+"text": "專案全貌",
+"kind": "shape"
+},
+{
+"id": "p4_i3",
+"text": "一份可以相信的分析，要走完整條路",
+"kind": "shape"
+},
+{
+"id": "p4_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i5",
+"text": "04",
+"kind": "shape"
+},
+{
+"id": "p4_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p4_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i8",
+"text": "01",
+"kind": "shape"
+},
+{
+"id": "p4_i9",
+"text": "選資料",
+"kind": "shape"
+},
+{
+"id": "p4_i10",
+"text": "來源清楚\n欄位可理解",
+"kind": "shape"
+},
+{
+"id": "p4_i11",
+"text": "→",
+"kind": "shape"
+},
+{
+"id": "p4_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i13",
+"text": "02",
+"kind": "shape"
+},
+{
+"id": "p4_i14",
+"text": "提問題",
+"kind": "shape"
+},
+{
+"id": "p4_i15",
+"text": "可用欄位\n實際回答",
+"kind": "shape"
+},
+{
+"id": "p4_i16",
+"text": "→",
+"kind": "shape"
+},
+{
+"id": "p4_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i18",
+"text": "03",
+"kind": "shape"
+},
+{
+"id": "p4_i19",
+"text": "清理",
+"kind": "shape"
+},
+{
+"id": "p4_i20",
+"text": "留下每個\n處理決策",
+"kind": "shape"
+},
+{
+"id": "p4_i21",
+"text": "→",
+"kind": "shape"
+},
+{
+"id": "p4_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i23",
+"text": "04",
+"kind": "shape"
+},
+{
+"id": "p4_i24",
+"text": "分析",
+"kind": "shape"
+},
+{
+"id": "p4_i25",
+"text": "統計、分組\n抽查總計",
+"kind": "shape"
+},
+{
+"id": "p4_i26",
+"text": "→",
+"kind": "shape"
+},
+{
+"id": "p4_i27",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p4_i28",
+"text": "05",
+"kind": "shape"
+},
+{
+"id": "p4_i29",
+"text": "記錄",
+"kind": "shape"
+},
+{
+"id": "p4_i30",
+"text": "發現、限制\n下一步",
+"kind": "shape"
+}
+]
+},
+"p5": {
+"index": 5,
+"elements": [
+{
+"id": "p5_i8",
+"text": "LESSON 19 · 05",
+"kind": "shape"
+},
+{
+"id": "p5_i2",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p5_i3",
+"text": "A",
+"kind": "shape"
+},
+{
+"id": "p5_i4",
+"text": "先確認：這份資料能不能用？",
+"kind": "shape"
+},
+{
+"id": "p5_i5",
+"text": "Open Data 不等於拿來就能分析；先看來源、授權、欄位與更新時間。",
+"kind": "shape"
+},
+{
+"id": "p5_i6",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p5_i7",
+"text": "把每一步留下證據，下一步才有依據。",
+"kind": "shape"
+}
+]
+},
+"p6": {
+"index": 6,
+"elements": [
+{
+"id": "p6_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i2",
+"text": "資料來源",
+"kind": "shape"
+},
+{
+"id": "p6_i3",
+"text": "初學者可以從這三個入口開始找資料",
+"kind": "shape"
+},
+{
+"id": "p6_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i5",
+"text": "06",
+"kind": "shape"
+},
+{
+"id": "p6_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p6_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i9",
+"text": "1",
+"kind": "shape"
+},
+{
+"id": "p6_i10",
+"text": "政府開放資料",
+"kind": "shape"
+},
+{
+"id": "p6_i11",
+"text": "交通、人口、觀光、教育等臺灣生活題材。先找 CSV 與欄位說明。",
+"kind": "shape"
+},
+{
+"id": "p6_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i14",
+"text": "2",
+"kind": "shape"
+},
+{
+"id": "p6_i15",
+"text": "Kaggle Datasets",
+"kind": "shape"
+},
+{
+"id": "p6_i16",
+"text": "主題多、範例多。先挑小檔案、有說明、欄位不複雜的 CSV。",
+"kind": "shape"
+},
+{
+"id": "p6_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i18",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p6_i19",
+"text": "3",
+"kind": "shape"
+},
+{
+"id": "p6_i20",
+"text": "老師提供資料",
+"kind": "shape"
+},
+{
+"id": "p6_i21",
+"text": "格式與難度可控，最適合第一次完整走完專案流程。",
+"kind": "shape"
+}
+]
+},
+"p7": {
+"index": 7,
+"elements": [
+{
+"id": "p7_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p7_i3",
+"text": "搜尋資料時，不只打主題名稱",
+"kind": "shape"
+},
+{
+"id": "p7_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i5",
+"text": "07",
+"kind": "shape"
+},
+{
+"id": "p7_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p7_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i9",
+"text": "主題",
+"kind": "shape"
+},
+{
+"id": "p7_i10",
+"text": "先寫你關心的生活問題",
+"kind": "shape"
+},
+{
+"id": "p7_i11",
+"text": "例如：觀光、交通事故、房價、空氣品質、電影評分。",
+"kind": "shape"
+},
+{
+"id": "p7_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i14",
+"text": "格式",
+"kind": "shape"
+},
+{
+"id": "p7_i15",
+"text": "加上 CSV、欄位或下載",
+"kind": "shape"
+},
+{
+"id": "p7_i16",
+"text": "例：臺北 交通事故 CSV；movie ratings dataset CSV。",
+"kind": "shape"
+},
+{
+"id": "p7_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i18",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p7_i19",
+"text": "範圍",
+"kind": "shape"
+},
+{
+"id": "p7_i20",
+"text": "縮小時間、地區與資料量",
+"kind": "shape"
+},
+{
+"id": "p7_i21",
+"text": "第一次專題優先選 1～5 萬列內、欄位約 5～15 個的資料。",
+"kind": "shape"
+}
+]
+},
+"p8": {
+"index": 8,
+"elements": [
+{
+"id": "p8_i27",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p8_i3",
+"text": "下載前，先對資料做一次面試",
+"kind": "shape"
+},
+{
+"id": "p8_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i5",
+"text": "08",
+"kind": "shape"
+},
+{
+"id": "p8_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p8_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i8",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p8_i9",
+"text": "看得懂嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i10",
+"text": "欄位名稱與單位是否有說明？",
+"kind": "shape"
+},
+{
+"id": "p8_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i12",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p8_i13",
+"text": "答得到嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i14",
+"text": "資料真的含有問題需要的欄位嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i15",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i16",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p8_i17",
+"text": "跑得動嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i18",
+"text": "檔案大小、格式與編碼適合課堂環境嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i19",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i20",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p8_i21",
+"text": "能分享嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i22",
+"text": "授權是否允許重製、改作與公開展示？",
+"kind": "shape"
+},
+{
+"id": "p8_i23",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p8_i24",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p8_i25",
+"text": "安全嗎？",
+"kind": "shape"
+},
+{
+"id": "p8_i26",
+"text": "是否包含姓名、電話、精確地址等敏感資料？",
+"kind": "shape"
+}
+]
+},
+"p9": {
+"index": 9,
+"elements": [
+{
+"id": "p9_i19",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p9_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p9_i3",
+"text": "開放資料不是『網路上看到就能拿』",
+"kind": "shape"
+},
+{
+"id": "p9_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p9_i5",
+"text": "09",
+"kind": "shape"
+},
+{
+"id": "p9_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p9_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p9_i8",
+"text": "可以使用前",
+"kind": "shape"
+},
+{
+"id": "p9_i9",
+"text": "確認來源與授權",
+"kind": "shape"
+},
+{
+"id": "p9_i10",
+"text": "記錄資料提供者、網址、下載日期、授權名稱與版本。若來源頁面消失，作品仍保有脈絡。",
+"kind": "shape"
+},
+{
+"id": "p9_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p9_i12",
+"text": "授權是使用說明書，不是裝飾。",
+"kind": "shape"
+},
+{
+"id": "p9_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p9_i14",
+"text": "公開分享前",
+"kind": "shape"
+},
+{
+"id": "p9_i15",
+"text": "再檢查隱私風險",
+"kind": "shape"
+},
+{
+"id": "p9_i16",
+"text": "移除不必要的姓名、電話、Email、精確地址與可識別編號。只留下分析真正需要的欄位。",
+"kind": "shape"
+},
+{
+"id": "p9_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p9_i18",
+"text": "公開資料也可能含敏感欄位。",
+"kind": "shape"
+}
+]
+},
+"p10": {
+"index": 10,
+"elements": [
+{
+"id": "p10_i19",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p10_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p10_i3",
+"text": "檔案也要分清楚：原始資料與處理後資料",
+"kind": "shape"
+},
+{
+"id": "p10_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p10_i5",
+"text": "10",
+"kind": "shape"
+},
+{
+"id": "p10_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p10_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p10_i8",
+"text": "RAW",
+"kind": "shape"
+},
+{
+"id": "p10_i9",
+"text": "原始資料：保留不動",
+"kind": "shape"
+},
+{
+"id": "p10_i10",
+"text": "像收到的包裹。即使裡面有髒資料，也不要直接覆蓋，方便之後重新檢查。",
+"kind": "shape"
+},
+{
+"id": "p10_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p10_i12",
+"text": "lesson19_project_sales.csv",
+"kind": "shape"
+},
+{
+"id": "p10_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p10_i14",
+"text": "CLEAN",
+"kind": "shape"
+},
+{
+"id": "p10_i15",
+"text": "清理資料：另存新檔",
+"kind": "shape"
+},
+{
+"id": "p10_i16",
+"text": "像拆封、分類後的內容。程式碼記錄如何從 raw 產生 clean。",
+"kind": "shape"
+},
+{
+"id": "p10_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p10_i18",
+"text": "lesson19_project_sales_clean.csv",
+"kind": "shape"
+}
+]
+},
+"p11": {
+"index": 11,
+"elements": [
+{
+"id": "p11_i8",
+"text": "LESSON 19 · 11",
+"kind": "shape"
+},
+{
+"id": "p11_i2",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p11_i3",
+"text": "B",
+"kind": "shape"
+},
+{
+"id": "p11_i4",
+"text": "把興趣改寫成可回答的問題",
+"kind": "shape"
+},
+{
+"id": "p11_i5",
+"text": "好問題要能指出對象、比較方式與指標，而且資料欄位真的存在。",
+"kind": "shape"
+},
+{
+"id": "p11_i6",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p11_i7",
+"text": "把每一步留下證據，下一步才有依據。",
+"kind": "shape"
+}
+]
+},
+"p12": {
+"index": 12,
+"elements": [
+{
+"id": "p12_i19",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p12_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p12_i3",
+"text": "『哪裡生意最好？』還不夠清楚",
+"kind": "shape"
+},
+{
+"id": "p12_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p12_i5",
+"text": "12",
+"kind": "shape"
+},
+{
+"id": "p12_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p12_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p12_i8",
+"text": "太模糊",
+"kind": "shape"
+},
+{
+"id": "p12_i9",
+"text": "哪裡生意最好？",
+"kind": "shape"
+},
+{
+"id": "p12_i10",
+"text": "『哪裡』是城市還是門市？『最好』是營業額、訂單數，還是顧客數？",
+"kind": "shape"
+},
+{
+"id": "p12_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p12_i12",
+"text": "每個人可能算出不同答案",
+"kind": "shape"
+},
+{
+"id": "p12_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p12_i14",
+"text": "可回答",
+"kind": "shape"
+},
+{
+"id": "p12_i15",
+"text": "哪個城市的營業額最高？",
+"kind": "shape"
+},
+{
+"id": "p12_i16",
+"text": "對象是 city，指標是 revenue，方法是 groupby + sum，再由大到小排序。",
+"kind": "shape"
+},
+{
+"id": "p12_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p12_i18",
+"text": "問題 → 欄位 → 指標 → 方法",
+"kind": "shape"
+}
+]
+},
+"p13": {
+"index": 13,
+"elements": [
+{
+"id": "p13_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p13_i3",
+"text": "問題、欄位與方法要排成同一條線",
+"kind": "shape"
+},
+{
+"id": "p13_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i5",
+"text": "13",
+"kind": "shape"
+},
+{
+"id": "p13_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p13_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i9",
+"text": "問題 1",
+"kind": "shape"
+},
+{
+"id": "p13_i10",
+"text": "哪個城市營業額最高？",
+"kind": "shape"
+},
+{
+"id": "p13_i11",
+"text": "city + quantity + unit_price → 新增 revenue → groupby city → sum",
+"kind": "shape"
+},
+{
+"id": "p13_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i14",
+"text": "問題 2",
+"kind": "shape"
+},
+{
+"id": "p13_i15",
+"text": "哪個分類平均訂單金額最高？",
+"kind": "shape"
+},
+{
+"id": "p13_i16",
+"text": "category + revenue → groupby category → mean → sort_values",
+"kind": "shape"
+},
+{
+"id": "p13_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i18",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p13_i19",
+"text": "問題 3",
+"kind": "shape"
+},
+{
+"id": "p13_i20",
+"text": "七月與八月營業額如何變化？",
+"kind": "shape"
+},
+{
+"id": "p13_i21",
+"text": "order_date + revenue → 建立 month → groupby month → sum",
+"kind": "shape"
+}
+]
+},
+"p14": {
+"index": 14,
+"elements": [
+{
+"id": "p14_i27",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i2",
+"text": "課程資料",
+"kind": "shape"
+},
+{
+"id": "p14_i3",
+"text": "本堂主案例：一份故意不完美的咖啡店訂單",
+"kind": "shape"
+},
+{
+"id": "p14_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i5",
+"text": "14",
+"kind": "shape"
+},
+{
+"id": "p14_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p14_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i9",
+"text": "1",
+"kind": "shape"
+},
+{
+"id": "p14_i10",
+"text": "49 筆原始列",
+"kind": "shape"
+},
+{
+"id": "p14_i11",
+"text": "包含一筆重複訂單，讓同學練習辨認。",
+"kind": "shape"
+},
+{
+"id": "p14_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i14",
+"text": "2",
+"kind": "shape"
+},
+{
+"id": "p14_i15",
+"text": "3 類髒資料",
+"kind": "shape"
+},
+{
+"id": "p14_i16",
+"text": "空白城市、two 數量、錯誤日期與缺漏單價。",
+"kind": "shape"
+},
+{
+"id": "p14_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i18",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i19",
+"text": "3",
+"kind": "shape"
+},
+{
+"id": "p14_i20",
+"text": "9 個原始欄位",
+"kind": "shape"
+},
+{
+"id": "p14_i21",
+"text": "訂單、日期、城市、分類、商品、數量、單價、付款、匿名顧客。",
+"kind": "shape"
+},
+{
+"id": "p14_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i23",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p14_i24",
+"text": "4",
+"kind": "shape"
+},
+{
+"id": "p14_i25",
+"text": "3 個分析問題",
+"kind": "shape"
+},
+{
+"id": "p14_i26",
+"text": "城市、分類、月份；剛好接到 Lesson 20 的圖表。",
+"kind": "shape"
+}
+]
+},
+"p15": {
+"index": 15,
+"elements": [
+{
+"id": "p15_i15",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p15_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p15_i3",
+"text": "第一步只做一件事：把 CSV 讀進來",
+"kind": "shape"
+},
+{
+"id": "p15_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p15_i5",
+"text": "15",
+"kind": "shape"
+},
+{
+"id": "p15_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p15_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p15_i8",
+"text": "PYTHON",
+"kind": "shape"
+},
+{
+"id": "p15_i9",
+"text": "from pathlib import Path\nimport pandas as pd\n\ndata_path = Path(\"lesson19_project_sales.csv\")\ndf = pd.read_csv(data_path)\n\nprint(df.head())\nprint(df.shape)",
+"kind": "shape"
+},
+{
+"id": "p15_i10",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p15_i11",
+"text": "先確認有讀到",
+"kind": "shape"
+},
+{
+"id": "p15_i12",
+"text": "1. Path 指向同資料夾 CSV\n\n2. read_csv 讀成 DataFrame\n\n3. head 看內容\n\n4. shape 看列數與欄數",
+"kind": "shape"
+},
+{
+"id": "p15_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p15_i14",
+"text": "看到表格，才進下一步。",
+"kind": "shape"
+}
+]
+},
+"p16": {
+"index": 16,
+"elements": [
+{
+"id": "p16_i15",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p16_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p16_i3",
+"text": "資料健檢：像拆箱後先點貨",
+"kind": "shape"
+},
+{
+"id": "p16_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p16_i5",
+"text": "16",
+"kind": "shape"
+},
+{
+"id": "p16_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p16_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p16_i8",
+"text": "PYTHON",
+"kind": "shape"
+},
+{
+"id": "p16_i9",
+"text": "print(df.shape)\nprint(df.columns.tolist())\nprint(df.dtypes)\n\nprint(df.isna().sum())\nprint(df.duplicated(\"order_id\").sum())",
+"kind": "shape"
+},
+{
+"id": "p16_i10",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p16_i11",
+"text": "五個基本問題",
+"kind": "shape"
+},
+{
+"id": "p16_i12",
+"text": "shape：規模\n\ncolumns：有哪些欄位\n\ndtypes：目前型態\n\nisna：缺漏在哪裡\n\nduplicated：是否重複",
+"kind": "shape"
+},
+{
+"id": "p16_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p16_i14",
+"text": "健檢先於分析",
+"kind": "shape"
+}
+]
+},
+"p17": {
+"index": 17,
+"elements": [
+{
+"id": "p17_i22",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p17_i3",
+"text": "清理不是按一個按鈕，而是一連串決策",
+"kind": "shape"
+},
+{
+"id": "p17_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i5",
+"text": "17",
+"kind": "shape"
+},
+{
+"id": "p17_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p17_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i9",
+"text": "文字",
+"kind": "shape"
+},
+{
+"id": "p17_i10",
+"text": "去空白、統一大小寫與分類",
+"kind": "shape"
+},
+{
+"id": "p17_i11",
+"text": "strip、lower、replace；先看 value_counts，避免把不同意思錯合併。",
+"kind": "shape"
+},
+{
+"id": "p17_i12",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i14",
+"text": "數字",
+"kind": "shape"
+},
+{
+"id": "p17_i15",
+"text": "無效文字先轉成缺值",
+"kind": "shape"
+},
+{
+"id": "p17_i16",
+"text": "pd.to_numeric(errors='coerce') 會把 two 變成 NaN，再決定保留或移除。",
+"kind": "shape"
+},
+{
+"id": "p17_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i18",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p17_i19",
+"text": "日期",
+"kind": "shape"
+},
+{
+"id": "p17_i20",
+"text": "轉成 datetime，無效日期要被看見",
+"kind": "shape"
+},
+{
+"id": "p17_i21",
+"text": "pd.to_datetime(errors='coerce') 讓錯誤日期變 NaT。",
+"kind": "shape"
+}
+]
+},
+"p18": {
+"index": 18,
+"elements": [
+{
+"id": "p18_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p18_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p18_i3",
+"text": "把文字與分類先整理成一致的樣子",
+"kind": "shape"
+},
+{
+"id": "p18_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p18_i5",
+"text": "18",
+"kind": "shape"
+},
+{
+"id": "p18_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p18_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p18_i8",
+"text": "PYTHON",
+"kind": "shape"
+},
+{
+"id": "p18_i9",
+"text": "clean_df = df.copy()\n\nfor column in [\"city\", \"category\", \"product\", \"payment\"]:\n    clean_df[column] = (\n        clean_df[column]\n        .astype(\"string\")\n        .str.strip()\n    )\n\nclean_df[\"payment\"] = clean_df[\"payment\"].str.lower()",
+"kind": "shape"
+},
+{
+"id": "p18_i10",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p18_i11",
+"text": "文字清理四步",
+"kind": "shape"
+},
+{
+"id": "p18_i12",
+"text": "copy 保留原始 df\n\nastype('string') 統一文字型態\n\nstrip 移除前後空白\n\nlower 統一英文大小寫",
+"kind": "shape"
+}
+]
+},
+"p19": {
+"index": 19,
+"elements": [
+{
+"id": "p19_i15",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p19_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p19_i3",
+"text": "數字與日期：轉換失敗要留下可檢查的記號",
+"kind": "shape"
+},
+{
+"id": "p19_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p19_i5",
+"text": "19",
+"kind": "shape"
+},
+{
+"id": "p19_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p19_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p19_i8",
+"text": "PYTHON",
+"kind": "shape"
+},
+{
+"id": "p19_i9",
+"text": "clean_df[\"quantity\"] = pd.to_numeric(\n    clean_df[\"quantity\"], errors=\"coerce\"\n)\n\nclean_df[\"unit_price\"] = pd.to_numeric(\n    clean_df[\"unit_price\"], errors=\"coerce\"\n)\n\nclean_df[\"order_date\"] = pd.to_datetime(\n    clean_df[\"order_date\"], errors=\"coerce\"\n)",
+"kind": "shape"
+},
+{
+"id": "p19_i10",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p19_i11",
+"text": "先標記，再決策",
+"kind": "shape"
+},
+{
+"id": "p19_i12",
+"text": "coerce 的意思：\n無法轉換時不要中斷，先改成 NaN 或 NaT。\n\n接著用 isna 找出失敗列，再決定怎麼處理。",
+"kind": "shape"
+},
+{
+"id": "p19_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p19_i14",
+"text": "NaN / NaT 是線索",
+"kind": "shape"
+}
+]
+},
+"p20": {
+"index": 20,
+"elements": [
+{
+"id": "p20_i19",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p20_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p20_i3",
+"text": "缺值與重複值：沒有永遠正確的單一答案",
+"kind": "shape"
+},
+{
+"id": "p20_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p20_i5",
+"text": "20",
+"kind": "shape"
+},
+{
+"id": "p20_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p20_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p20_i8",
+"text": "可以補值",
+"kind": "shape"
+},
+{
+"id": "p20_i9",
+"text": "答案合理而且有依據",
+"kind": "shape"
+},
+{
+"id": "p20_i10",
+"text": "例如付款方式缺漏，只做筆數統計時可以標成『未知』；但要清楚說明這是分類，不是原本答案。",
+"kind": "shape"
+},
+{
+"id": "p20_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p20_i12",
+"text": "保留資料，但新增假設",
+"kind": "shape"
+},
+{
+"id": "p20_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p20_i14",
+"text": "可以移除",
+"kind": "shape"
+},
+{
+"id": "p20_i15",
+"text": "缺少的是計算必要欄位",
+"kind": "shape"
+},
+{
+"id": "p20_i16",
+"text": "quantity 或 unit_price 缺漏時，這列無法可靠計算 revenue；本案例選擇移除。",
+"kind": "shape"
+},
+{
+"id": "p20_i17",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p20_i18",
+"text": "少一筆，也比算錯好",
+"kind": "shape"
+}
+]
+},
+"p21": {
+"index": 21,
+"elements": [
+{
+"id": "p21_i15",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p21_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p21_i3",
+"text": "清理後才建立分析欄位 revenue",
+"kind": "shape"
+},
+{
+"id": "p21_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p21_i5",
+"text": "21",
+"kind": "shape"
+},
+{
+"id": "p21_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p21_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p21_i8",
+"text": "PYTHON",
+"kind": "shape"
+},
+{
+"id": "p21_i9",
+"text": "clean_df = clean_df.drop_duplicates(\"order_id\")\n\nclean_df[\"city\"] = clean_df[\"city\"].fillna(\"未知\")\nclean_df[\"payment\"] = clean_df[\"payment\"].fillna(\"未知\")\n\nclean_df = clean_df.dropna(\n    subset=[\"order_date\", \"quantity\", \"unit_price\"]\n)\n\nclean_df[\"revenue\"] = (\n    clean_df[\"quantity\"] * clean_df[\"unit_price\"]\n)",
+"kind": "shape"
+},
+{
+"id": "p21_i10",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p21_i11",
+"text": "順序很重要",
+"kind": "shape"
+},
+{
+"id": "p21_i12",
+"text": "先去重複\n\n分類缺值標成未知\n\n必要欄位缺值移除\n\n最後才計算營業額",
+"kind": "shape"
+},
+{
+"id": "p21_i13",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p21_i14",
+"text": "49 列 → 45 列",
+"kind": "shape"
+}
+]
+},
+"p22": {
+"index": 22,
+"elements": [
+{
+"id": "p22_i14",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p22_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p22_i3",
+"text": "第一個初步結果：哪個城市營業額最高？",
+"kind": "shape"
+},
+{
+"id": "p22_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p22_i5",
+"text": "22",
+"kind": "shape"
+},
+{
+"id": "p22_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p22_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p22_i21",
+"text": null,
+"kind": "other"
+},
+{
+"id": "p22_i9",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p22_i10",
+"text": "圖表告訴我們",
+"kind": "shape"
+},
+{
+"id": "p22_i11",
+"text": "桃園\n4,180 元",
+"kind": "shape"
+},
+{
+"id": "p22_i12",
+"text": "這是資料中的觀察。\n至於為什麼最高，目前資料還沒有門市數、促銷或客流量，不能直接推論。",
+"kind": "shape"
+},
+{
+"id": "p22_i13",
+"text": "清理後總營業額：10,450 元",
+"kind": "shape"
+}
+]
+},
+"p23": {
+"index": 23,
+"elements": [
+{
+"id": "p23_i27",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p23_i3",
+"text": "專題提案不用長，但這五格一定要填",
+"kind": "shape"
+},
+{
+"id": "p23_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i5",
+"text": "23",
+"kind": "shape"
+},
+{
+"id": "p23_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p23_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i8",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p23_i9",
+"text": "主題與動機",
+"kind": "shape"
+},
+{
+"id": "p23_i10",
+"text": "我為什麼關心這份資料？",
+"kind": "shape"
+},
+{
+"id": "p23_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i12",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p23_i13",
+"text": "資料來源",
+"kind": "shape"
+},
+{
+"id": "p23_i14",
+"text": "網址、下載日期、授權與資料期間。",
+"kind": "shape"
+},
+{
+"id": "p23_i15",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i16",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p23_i17",
+"text": "分析問題",
+"kind": "shape"
+},
+{
+"id": "p23_i18",
+"text": "三個能對應欄位與指標的問題。",
+"kind": "shape"
+},
+{
+"id": "p23_i19",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i20",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p23_i21",
+"text": "清理決策",
+"kind": "shape"
+},
+{
+"id": "p23_i22",
+"text": "缺值、重複、型態與異常值如何處理？",
+"kind": "shape"
+},
+{
+"id": "p23_i23",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p23_i24",
+"text": "✓",
+"kind": "shape"
+},
+{
+"id": "p23_i25",
+"text": "下一步",
+"kind": "shape"
+},
+{
+"id": "p23_i26",
+"text": "Lesson 20 要完成哪些圖表、驗證與結論？",
+"kind": "shape"
+}
+]
+},
+"p24": {
+"index": 24,
+"elements": [
+{
+"id": "p24_i11",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p24_i2",
+"text": "PYTHON 資料分析實戰",
+"kind": "shape"
+},
+{
+"id": "p24_i3",
+"text": "本堂 Checkpoint",
+"kind": "shape"
+},
+{
+"id": "p24_i4",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p24_i5",
+"text": "24",
+"kind": "shape"
+},
+{
+"id": "p24_i6",
+"text": "Lesson 19",
+"kind": "shape"
+},
+{
+"id": "p24_i7",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p24_i8",
+"text": null,
+"kind": "shape"
+},
+{
+"id": "p24_i9",
+"text": "我能交出一份『可繼續分析』的資料，\n也能說明它從哪裡來、改過什麼。",
+"kind": "shape"
+},
+{
+"id": "p24_i10",
+"text": "完成：資料身分證＋三個問題＋乾淨資料＋兩個初步發現＋一個限制",
+"kind": "shape"
+}
+]
+}
+}
