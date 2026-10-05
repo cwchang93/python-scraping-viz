@@ -20,6 +20,14 @@
 3. 確認 `fixtures/` 的快照可用，這是斷網或網站改版時的備案。
 4. 決定當班只做到 Core，或加做 Practice、Challenge。
 
+## 重建資料集
+
+第 5、6 堂使用從練習站爬下來的真實資料（`fixtures/` 內的 CSV）。網站改版或資料變動時：
+
+1. `python tools/build_fixtures.py all` 重新抓取（約 6 分鐘，每個請求間隔 1 秒）。
+2. 檢查各堂 `exercises` 與 `solutions` 裡寫死的數字（筆數、總價、國家數等），必要時更新標準答案。
+3. 重新執行 `python tools/validate_lessons.py --run`。
+
 ## 爬蟲課的額外規則
 
 - 課堂只爬練習站、開放資料與公開頁面。

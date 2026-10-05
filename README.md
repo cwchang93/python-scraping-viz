@@ -10,9 +10,11 @@
 - 第二堂：[requests 與 HTML 結構](lessons/lesson02_requests_and_html/README.md)
 - 第三堂：[BeautifulSoup（一）：解析 HTML](lessons/lesson03_beautifulsoup_basics/README.md)
 - 第四堂：[BeautifulSoup（二）：翻頁與整站](lessons/lesson04_pagination_and_csv/README.md)
+- 第五堂：[爬回來的資料整理：pandas](lessons/lesson05_tidy_scraped_data/README.md)
+- 第六堂：[網頁資料清理](lessons/lesson06_cleaning_scraped_data/README.md)
 - 簡報流程與連結：[slides/README.md](slides/README.md)
 
-目前進度：Lesson 01–04 的教材與簡報完成，其餘 16 堂依課綱逐堂製作。
+目前進度：Lesson 01–06 的教材與簡報完成，其餘 14 堂依課綱逐堂製作。
 
 ## 課程定位
 

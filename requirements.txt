@@ -1,11 +1,15 @@
 # Lesson 01 起使用
 requests>=2.32,<3
 
-# Lesson 03 起使用（解析器用 Python 內建的 html.parser，不必另外安裝 lxml）
+# Lesson 03 起使用（解析器用 Python 內建的 html.parser）
 beautifulsoup4>=4.12,<5
 
+# Lesson 05 起使用（read_html 需要 lxml）
+pandas>=2.2,<4
+lxml>=5
+
 # 之後依各堂需要加入，例如：
-# pandas, matplotlib          (Lesson 05)
+# matplotlib                  (Lesson 15)
 # selenium                    (Lesson 08)
 # pillow                      (Lesson 10)
 # jieba, wordcloud            (Lesson 14)
