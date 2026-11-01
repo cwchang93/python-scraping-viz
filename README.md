@@ -4,6 +4,9 @@
 
 ## 快速入口
 
+- 第 0 章：自學入門、Python 基礎檢查與教材操作：[開始自學](lessons/lesson00_getting_started/README.md)
+- 學習路徑：[LEARNING_PATH.md](LEARNING_PATH.md)
+- 專案大綱：[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)
 - 完整課綱：[COURSE_SYLLABUS.md](COURSE_SYLLABUS.md)
 - 通用教學規則：[TEACHER_GUIDE.md](TEACHER_GUIDE.md)
 - 第一堂：[網路原理、爬蟲倫理與環境](lessons/lesson01_network_and_environment/README.md)
@@ -18,7 +21,8 @@
 
 ## 課程定位
 
-- 對象：已完成 course_v2（Python 基礎、pandas、Matplotlib）的學員
+- 對象：具備 Python 基礎、想用爬蟲取得並分析網頁資料的學員；不必先完整修完 course_v2，但需依第 0 章自我檢查並在需要時回補基礎
+- pandas、Matplotlib 等資料分析先備能力會在後續章節用到；可依第 0 章的章節對照表補課
 - 節數：20 堂，每堂 3 小時
 - 難度：以實作經驗為主，每堂只引入一到兩個新工具
 - 產出：一份能重複執行的爬蟲程式，加上一個可公開展示的視覺化網頁
