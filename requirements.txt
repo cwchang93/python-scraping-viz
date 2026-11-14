@@ -1,21 +1,3 @@
-# Lesson 01 起使用
 requests>=2.32,<3
-
-# Lesson 03 起使用（解析器用 Python 內建的 html.parser）
 beautifulsoup4>=4.12,<5
-
-# Lesson 05 起使用（read_html 需要 lxml）
-pandas>=2.2,<4
-lxml>=5
-
-# Lesson 08–09 使用（需要安裝 Chrome；第一次執行時 Selenium 會自動下載 chromedriver，需要網路）
-selenium>=4.25,<5
-
-# Lesson 10 起使用（圖片處理）
-pillow>=10.3,<13
-
-# 之後依各堂需要加入，例如：
-# matplotlib                  (Lesson 15)
-# jieba, wordcloud            (Lesson 14)
-# seaborn, plotly             (Lesson 15–16)
-# networkx                    (Lesson 17)
+ipykernel>=6
