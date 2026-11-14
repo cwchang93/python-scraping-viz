@@ -1,5 +1,7 @@
 # Teacher-only answers. Keep these local during the course.
 lessons/**/*solutions*.py
+lessons/**/*solutions*.ipynb
+lessons/**/教師解答.md
 
 # Python environment and caches
 .venv/

@@ -8,10 +8,14 @@ beautifulsoup4>=4.12,<5
 pandas>=2.2,<4
 lxml>=5
 
+# Lesson 08–09 使用（需要安裝 Chrome；第一次執行時 Selenium 會自動下載 chromedriver，需要網路）
+selenium>=4.25,<5
+
+# Lesson 10 起使用（圖片處理）
+pillow>=10.3,<13
+
 # 之後依各堂需要加入，例如：
 # matplotlib                  (Lesson 15)
-# selenium                    (Lesson 08)
-# pillow                      (Lesson 10)
 # jieba, wordcloud            (Lesson 14)
 # seaborn, plotly             (Lesson 15–16)
 # networkx                    (Lesson 17)

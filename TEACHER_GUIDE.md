@@ -22,11 +22,20 @@
 
 ## 重建資料集
 
-第 5、6 堂使用從練習站爬下來的真實資料（`fixtures/` 內的 CSV）。網站改版或資料變動時：
+第 6、7 堂使用從練習站爬下來的真實資料（`fixtures/` 內的 CSV），第 8 堂有 API 快照，第 11 堂有書的封面圖。網站改版或資料變動時：
 
-1. `python tools/build_fixtures.py all` 重新抓取（約 6 分鐘，每個請求間隔 1 秒）。
+1. `python tools/build_fixtures.py all` 重新抓取（約 8 分鐘，每個請求間隔 1 秒；`selenium` 目標需要 Chrome，`images` 目標需要 Pillow）。也可以只重建一部分：`books`、`quotes`、`api`、`selenium`、`images`。
 2. 檢查各堂 `exercises` 與 `solutions` 裡寫死的數字（筆數、總價、國家數等），必要時更新標準答案。
 3. 重新執行 `python tools/validate_lessons.py --run`。
+
+## 本機練習站與 Selenium
+
+- 第 8 堂（登入、Cookies）、第 9–10 堂（Selenium）與第 11 堂（圖片與檔案下載）使用 `tools/practice_site.py`，由各堂程式自動啟動，只在本機運作，不需要外部網路。
+- 練習站的測試帳號密碼只對本機有效，定義在該檔案內；課堂上不要換成任何真實帳號。
+- Selenium 需要 Chrome。第一次執行時會自動下載 chromedriver，**需要網路**；公司或學校網路若擋下載，請事先在教室的電腦各跑一次。
+- Selenium 的第 9、10 堂使用 Notebook：先執行設定及函式定義，再執行示範或檢查格；每次操作後會關閉瀏覽器及練習站。第 11 堂不需要 Chrome。
+- 無限捲動是否觸發和瀏覽器視窗高度有關，所以第 10 堂的 `new_driver()` 固定視窗為 1280×900，不要拿掉。
+- 開課前先用 `python tools/validate_lessons.py --lesson NN --run` 確認環境（無頭模式），上課示範則用有視窗的模式。
 
 ## 爬蟲課的額外規則
 

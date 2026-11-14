@@ -2,6 +2,9 @@
 
     python tools/build_fixtures.py books     # lesson 05: 1000 raw book rows + one detail page
     python tools/build_fixtures.py quotes    # lesson 06: raw quotes and author pages
+    python tools/build_fixtures.py api       # lesson 07: JSON snapshots (quotes API, YouBike)
+    python tools/build_fixtures.py selenium  # lessons 08, 09: rendered HTML from the local practice site (needs Chrome)
+    python tools/build_fixtures.py images    # lesson 10: 12 book covers plus 3 generated pictures (needs Pillow)
     python tools/build_fixtures.py all
 
 Both sites are built for scraping practice. Requests are spaced one second apart.
@@ -11,6 +14,7 @@ The raw text is kept as scraped on purpose: cleaning it is what the lessons teac
 from __future__ import annotations
 
 import csv
+import json
 import logging
 import sys
 import time
@@ -21,8 +25,14 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-BOOKS_DIR = ROOT / "lessons/lesson05_tidy_scraped_data/fixtures"
-QUOTES_DIR = ROOT / "lessons/lesson06_cleaning_scraped_data/fixtures"
+BOOKS_DIR = ROOT / "lessons/lesson06_tidy_scraped_data/fixtures"
+QUOTES_DIR = ROOT / "lessons/lesson07_cleaning_scraped_data/fixtures"
+API_DIR = ROOT / "lessons/lesson08_json_api_and_sessions/fixtures"
+SELENIUM_DIR = ROOT / "lessons/lesson09_selenium_basics/fixtures"
+FEED_DIR = ROOT / "lessons/lesson10_scroll_and_load_more/fixtures"
+GALLERY_DIR = ROOT / "lessons/lesson11_images_and_files/fixtures/gallery"
+YOUBIKE_URL = "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json"
+YOUBIKE_SAMPLE_STEP = 6  # keep every 6th station so all districts are covered
 USER_AGENT = "python-scraping-viz-class/0.1 (student project)"
 DELAY = 1.0
 
@@ -128,15 +138,140 @@ def build_quotes() -> None:
     )
 
 
+def build_api() -> None:
+    API_DIR.mkdir(parents=True, exist_ok=True)
+    for page in (1, 2):
+        data = get(f"https://quotes.toscrape.com/api/quotes?page={page}").json()
+        (API_DIR / f"quotes_api_page{page}.json").write_text(
+            json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        log.info("wrote quotes_api_page%d.json (%d quotes)", page, len(data["quotes"]))
+        time.sleep(DELAY)
+
+    stations = get(YOUBIKE_URL).json()
+    sample = stations[::YOUBIKE_SAMPLE_STEP]
+    (API_DIR / "youbike_sample.json").write_text(json.dumps(sample, ensure_ascii=False, indent=1), encoding="utf-8")
+    log.info("wrote youbike_sample.json (%d of %d stations, updated %s)", len(sample), len(stations), sample[0].get("srcUpdateTime"))
+
+
+def build_selenium() -> None:
+    sys.path.insert(0, str(ROOT / "tools"))
+    from practice_site import start_server, stop_server
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.webdriver.support.ui import WebDriverWait
+
+    SELENIUM_DIR.mkdir(parents=True, exist_ok=True)
+    FEED_DIR.mkdir(parents=True, exist_ok=True)
+    server, base = start_server()
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless=new")
+    options.add_argument("--window-size=1280,900")
+    try:
+        with webdriver.Chrome(options=options) as driver:
+            driver.get(f"{base}/delayed")
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "result")))
+            (SELENIUM_DIR / "delayed_rendered.html").write_text(driver.page_source, encoding="utf-8")
+            log.info("wrote delayed_rendered.html")
+
+            # lesson 09: scroll /feed until the end message appears, then keep the rendered page
+            driver.get(f"{base}/feed")
+            while True:
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "article.post")))
+                if driver.find_elements(By.ID, "end-message"):
+                    break
+                before = len(driver.find_elements(By.CSS_SELECTOR, "article.post"))
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+                WebDriverWait(driver, 10).until(
+                    lambda d: len(d.find_elements(By.CSS_SELECTOR, "article.post")) > before
+                )
+            (FEED_DIR / "feed_rendered.html").write_text(driver.page_source, encoding="utf-8")
+            log.info("wrote feed_rendered.html")
+    finally:
+        stop_server(server)
+
+
+def build_images() -> None:
+    """lesson 10: 12 real book covers from books.toscrape.com plus 3 generated pictures."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    GALLERY_DIR.mkdir(parents=True, exist_ok=True)
+    start_url = "https://books.toscrape.com/"
+    soup = BeautifulSoup(get(start_url).content, "html.parser")
+    rows: list[dict] = []
+    for number, pod in enumerate(soup.select("article.product_pod")[:12], start=1):
+        # the list page only has ~100px thumbnails; the detail page has the larger cover (about 318x395)
+        detail_url = urljoin(start_url, pod.select_one("h3 a")["href"])
+        time.sleep(DELAY)
+        detail = BeautifulSoup(get(detail_url).content, "html.parser")
+        image = detail.select_one("div.item.active img")
+        name = f"cover_{number:02d}.jpg"
+        time.sleep(DELAY)
+        (GALLERY_DIR / name).write_bytes(get(urljoin(detail_url, image["src"])).content)
+        rows.append(
+            {
+                "file": name,
+                "title": image["alt"],
+                "rating": pod.select_one("p.star-rating")["class"][1],
+                "kind": "book",
+            }
+        )
+        log.info("cover %d: %s", number, image["alt"])
+
+    try:
+        font = ImageFont.load_default(size=72)
+    except TypeError:  # Pillow older than 10.1 cannot choose the size
+        font = ImageFont.load_default()
+
+    # banner.png: RGBA with transparent corners (saving it as JPEG needs convert("RGB"))
+    layer = Image.new("RGBA", (1200, 400))
+    draw = ImageDraw.Draw(layer)
+    for x in range(1200):
+        draw.line([(x, 0), (x, 399)], fill=(20 + x // 8, 90 + x // 20, 160 - x // 12, 255))
+    draw.text((60, 150), "SCRAPING CLASS", fill=(255, 255, 255, 255), font=font)
+    mask = Image.new("L", (1200, 400), 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, 1199, 399), radius=60, fill=255)
+    banner = Image.new("RGBA", (1200, 400), (0, 0, 0, 0))  # the corners stay fully transparent black
+    banner.paste(layer, (0, 0), mask)
+    banner.save(GALLERY_DIR / "banner.png")
+
+    # landscape.jpg: a big, wide picture (1600x900)
+    landscape = Image.new("RGB", (1600, 900))
+    draw = ImageDraw.Draw(landscape)
+    for y in range(900):
+        if y < 600:
+            draw.line([(0, y), (1599, y)], fill=(120 + y // 8, 170 + y // 12, 230))
+        else:
+            draw.line([(0, y), (1599, y)], fill=(40, 120 - (y - 600) // 8, 60))
+    draw.ellipse((1150, 90, 1350, 290), fill=(255, 220, 90))
+    landscape.save(GALLERY_DIR / "landscape.jpg", quality=90)
+
+    # icon.png: a tiny 64x64 RGBA picture
+    icon = Image.new("RGBA", (64, 64), (0, 0, 0, 0))
+    ImageDraw.Draw(icon).ellipse((4, 4, 59, 59), fill=(231, 76, 60, 255), outline=(255, 255, 255, 255), width=3)
+    icon.save(GALLERY_DIR / "icon.png")
+
+    for name, title in (("banner.png", "Banner"), ("landscape.jpg", "Landscape"), ("icon.png", "Icon")):
+        rows.append({"file": name, "title": title, "rating": "", "kind": "other"})
+    write_csv(GALLERY_DIR / "manifest.csv", ["file", "title", "rating", "kind"], rows)
+
+
 def main() -> int:
     target = sys.argv[1] if len(sys.argv) > 1 else "all"
-    if target not in {"books", "quotes", "all"}:
+    if target not in {"books", "quotes", "api", "selenium", "images", "all"}:
         print(__doc__)
         return 2
     if target in {"books", "all"}:
         build_books()
     if target in {"quotes", "all"}:
         build_quotes()
+    if target in {"api", "all"}:
+        build_api()
+    if target in {"selenium", "all"}:
+        build_selenium()
+    if target in {"images", "all"}:
+        build_images()
     return 0
 
 
