@@ -5,6 +5,8 @@
 - `lesson01_python_warmup`
 - `lesson02_network_and_environment`
 
+Lesson 01 的 15 題練習請開啟 `lessons/lesson01_python_warmup/lesson01_exercises.ipynb`；它與原本的 `lesson01_learning.ipynb` 內容相同，選一個檔案作答即可。Lesson 02 的練習和作業分別為 `lesson02_exercises.ipynb` 與 `lesson02_homework.ipynb`。
+
 ## 第一次使用
 
 1. 在 GitHub 按 **Code → Download ZIP**，下載後先解壓縮。
