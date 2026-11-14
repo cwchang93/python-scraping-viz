@@ -2,6 +2,19 @@
 
 這堂是第一堂的暖身練習，幫大家喚回寫爬蟲會用到的 Python 基礎。先自己完成 Learning Exercise，再用 Solutions 對答案。建議先完成 Core；有餘裕再做 Practice 與 Challenge。
 
+
+## 本章學習地圖
+
+**複習基礎** → **練習爬蟲常用寫法** → **完成練習**
+
+| 階段 | 會用到的語法或工具 | 完成後能做什麼 |
+|---|---|---|
+| ⭐ Core 1–5 | 變數、`float()`、字串方法、`if / else`、list 索引與切片、dict `.get()` | 轉換價格、清理文字、判斷狀態碼與取出資料 |
+| ⭐⭐ Practice 6–10 | `for`、條件篩選、`def / return`、字串搜尋、`try / except` | 逐筆整理資料、撰寫函式並處理資料缺漏 |
+| ⭐⭐⭐ Challenge 11–15 | 網址拆解、字串計數、`requests`、`timeout` 與狀態碼 | 認識爬蟲資料流程；第 13 題連網請求為選做 |
+
+**課堂產出：**先完成 Core，再依時間挑戰 Practice 與 Challenge；執行每題並觀察提示。這一堂以 Colab 語法暖身為主。
+
 ## 學習目標
 
 - 喚回變數、型別、字串、條件、list、dict、迴圈與函式。

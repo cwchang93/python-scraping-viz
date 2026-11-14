@@ -1,5 +1,19 @@
 # Lesson 02｜網路原理、爬蟲倫理與環境
 
+
+## 本章學習地圖
+
+**準備工具與複習語法** → **認識網頁與請求** → **抓取、檢查、存檔**
+
+| 階段 | 會用到的語法或工具 | 完成後能做什麼 |
+|---|---|---|
+| 課前複習 | 字串、變數、dict `.get()`、`if / else`、函式與 `try / except` | 能閱讀網址、狀態碼與程式執行結果 |
+| 環境與網路 | Python、VS Code 的 Python 與 Jupyter 擴充功能、`.venv`、Notebook kernel、瀏覽器 F12 | 用 VS Code 選取課程環境，認識 URL、HTTP 請求、回應與 HTML |
+| 第一次抓網頁 | `requests.get(url, timeout=10)`、`status_code`、`headers`、`text / content` | 抓取一頁、檢查回應，並觀察 HTML |
+| 保存與負責任爬取 | `Path`、檔案讀寫、`raise_for_status()`、robots.txt、User-Agent | 將網頁存檔讀回，認識錯誤處理與爬蟲禮儀 |
+
+**課堂產出：**執行 Notebook，取得一個練習網頁、檢查狀態碼並存成 HTML。若無法連網，可使用課程提供的本機快照。
+
 ## 學習成果
 
 - 能說明瀏覽器打開網頁時，URL、請求、回應與 HTML 之間的關係。
