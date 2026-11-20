@@ -26,13 +26,13 @@
 | 75–85 | 休息與環境排錯 | |
 | 85–120 | ⭐ Core：小型 HTML 的標題、find、屬性 | exercises 1–4 |
 | 120–150 | 整頁解析、缺值保護、⭐⭐ Practice | learning 10–12、exercises 5–8 |
-| 150–170 | 包成 `parse_quotes`、F12 找選擇器；⭐⭐⭐ Challenge | learning 13–16、exercises 9–10 |
+| 150–170 | 包成 `parse_quotes`、F12 找選擇器；⭐⭐⭐ Challenge 與活用加練（依進度挑題） | learning 13–16、exercises 9–15 |
 | 170–180 | Exit Ticket、作業說明、下堂預告 | homework |
 
 ## 教材檔案
 
 - `lesson04_learning.ipynb`：16 個教學單元。
-- `lesson04_exercises.ipynb`：10 題分級練習，只用本機 HTML。
+- `lesson04_exercises.ipynb`：15 題分級練習，只用本機 HTML；第 11–15 題以書店頁面練 selector 範圍、class 篩選、缺值保護與資料整理。
 - `lesson04_solutions.ipynb`：教師解答，含作業參考解答（不進 git）。
 - `lesson04_homework.ipynb`：3 題課後作業。
 - `fixtures/quotes_page1.html`、`fixtures/quotes_tag_love.html`：練習站快照。
