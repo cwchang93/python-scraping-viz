@@ -1,0 +1,53 @@
+Python 爬蟲程式與資料視覺化開發｜2026 年 11 月教材連結
+
+下載教材後請先解壓縮，再使用 VS Code 開啟教材資料夾。
+請保存自己的作答副本，以免重新下載時覆蓋。
+11 月 22 日及 29 日的課程內容為暫定，請上課前重新下載最新教材。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026/11/15（日）｜Lesson 01、02
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+當日教材下載（GitHub ZIP）：
+https://github.com/cwchang93/python-scraping-viz/archive/refs/heads/students/2026-11-15.zip
+
+瀏覽當日教材：
+https://github.com/cwchang93/python-scraping-viz/tree/students/2026-11-15
+
+Lesson 01｜Python 語法暖身與爬蟲先備：
+https://docs.google.com/presentation/d/18xxYAqb-RhT7QqWui7VutjjZt9ywJ0_HMtSDek3v3eE/edit
+
+Lesson 02｜網路原理、爬蟲倫理與環境：
+https://docs.google.com/presentation/d/1IQxZkXgyuMFdmWZ1h8gwzsZ3opc0cUvwrdlUjTpw9uo/edit
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026/11/22（日）｜Lesson 03、04（暫定）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+當日教材下載（GitHub ZIP）：
+https://github.com/cwchang93/python-scraping-viz/archive/refs/heads/students/2026-11-22.zip
+
+瀏覽當日教材：
+https://github.com/cwchang93/python-scraping-viz/tree/students/2026-11-22
+
+Lesson 03｜requests 與 HTML 結構：
+https://docs.google.com/presentation/d/1lppaJ-OsQ4OykK-cDkFge71Iu2Z5bnT01WloRUmZcvI/edit
+
+Lesson 04｜BeautifulSoup（一）：解析 HTML：
+https://docs.google.com/presentation/d/1cAmVWhxAz7S9_96glAecv6mIPm0kO1DwipiuCmo5fzw/edit
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026/11/29（日）｜Lesson 05、06（暫定）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+當日教材下載（GitHub ZIP）：
+https://github.com/cwchang93/python-scraping-viz/archive/refs/heads/students/2026-11-29.zip
+
+瀏覽當日教材：
+https://github.com/cwchang93/python-scraping-viz/tree/students/2026-11-29
+
+Lesson 05｜BeautifulSoup（二）：翻頁與整站：
+https://docs.google.com/presentation/d/1C1X4rg24Ubtk0kyXld8-orMYqQ0kxllL5tvjudp4TME/edit
+
+Lesson 06｜爬回來的資料整理：pandas：
+https://docs.google.com/presentation/d/1YC_Oew008X3BhFpjaA2tFtKEOYL-e_4xKXjcqC6JwJE/edit
