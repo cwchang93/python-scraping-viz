@@ -8,6 +8,7 @@
 - 能用條件篩選（`&`、`|`）、`sort_values`、`nlargest`、`groupby` 做出排行榜。
 - 知道「書名重複」不等於「資料重複」，要用有唯一性的欄位判斷。
 - 能把整理後的結果存成乾淨的 CSV，再讀回來驗證。
+- 能檢查無法轉型或對照失敗的資料，保留原始值供排查。
 
 ## 課前準備
 
@@ -26,13 +27,13 @@
 | 75–85 | 休息與環境排錯 | |
 | 85–120 | ⭐ Core：讀入、轉型 | exercises 1–4 |
 | 120–150 | 基本統計、價格區間、篩選、排序；⭐⭐ Practice | learning 09–12、exercises 5–8 |
-| 150–170 | 分組、排行榜、存檔驗證；⭐⭐⭐ Challenge | learning 13–16、exercises 9–10 |
+| 150–170 | 分組、存檔驗證；示範異常資料；選做 Challenge | learning 13–17、exercises 9–10、進階 Part |
 | 170–180 | Exit Ticket、作業說明、下堂預告 | homework |
 
 ## 教材檔案
 
-- `lesson06_learning.ipynb`：16 個教學單元。
-- `lesson06_exercises.ipynb`：10 題分級練習，只用本機資料。
+- `lesson06_learning.ipynb`：17 個教學單元，最後示範轉型失敗的檢查。
+- `lesson06_exercises.ipynb`：10 題分級練習與進階 Part，只用本機資料。
 - `lesson06_solutions.ipynb`：教師解答，含作業參考解答（不進 git）。
 - `lesson06_homework.ipynb`：3 題課後作業。
 - `fixtures/books_raw.csv`：書店 1000 本書的原始爬取結果（價格、評分都還是字串）。
@@ -52,6 +53,7 @@
 
 - 時間不足：只做 Core 與第 5、6 題；`read_html` 與分組改為老師示範。
 - 時間充足：加做 Challenge，並讓學員自己提一個問題（例如「哪個價格區間 5 星最多」）再用程式回答。
+- 後半段安排 5–10 分鐘示範 learning 17；進階 Part 可做課後挑戰。
 
 ## 課後紀錄
 

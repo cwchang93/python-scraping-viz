@@ -8,13 +8,15 @@
 - 能找到「下一頁」連結，寫出翻頁迴圈，並在最後一頁停下。
 - 連續請求時加上 `time.sleep`，並用 `logging` 記錄進度與失敗。
 - 能把 list of dict 存成 CSV，再讀回來驗證。
+- 能分辨抓取完成、到達測試上限與抓取失敗，知道部分資料不等於全站結果。
 
 ## 課前準備
 
 - 學員已完成 Lesson 04（`find`、`select`、`parse_quotes`）。
-- 開課前跑一次 `python tools/validate_lessons.py --lesson 04 --run`，確認練習站可連線。
+- 開課前跑一次 `python tools/validate_lessons.py --lesson 05 --run`，確認教材與練習站可用；第 9 題解答和作業 H1 需要網路。
 - 確認 `fixtures/` 內有 `books_index.html`、`books_page2.html`、`books_page50.html`。
 - 教學示範的第 11 格會連到練習站抓 3 頁（約 8 秒）；整站 50 頁實測約 2.6 分鐘（1000 本），建議老師課前跑好，課堂只示範 3 頁。
+- 如果第一頁就抓不到，第 12 單元會改用首頁快照的 20 本，另存 `output/books_fixture.csv`；要說明這不是即時或全站結果。中途失敗時要看 log 與筆數，不能把部分資料當完整結果。
 
 ## 180 分鐘腳本
 
@@ -26,13 +28,13 @@
 | 75–85 | 休息與環境排錯 | |
 | 85–120 | ⭐ Core：價格、頁碼、評分、`urljoin` | exercises 1–4 |
 | 120–150 | `logging`、翻頁迴圈、⭐⭐ Practice | learning 10–11、exercises 5–8 |
-| 150–170 | 存 CSV、讀回驗證；⭐⭐⭐ Challenge | learning 12–15、exercises 9–10 |
+| 150–170 | 存 CSV、讀回驗證；討論部分資料；選做 Challenge | learning 12–16、exercises 9–10、進階 Part |
 | 170–180 | Exit Ticket、作業說明、下堂預告 | homework |
 
 ## 教材檔案
 
-- `lesson05_learning.ipynb`：15 個教學單元。
-- `lesson05_exercises.ipynb`：10 題分級練習；第 9 題連網，其餘用本機快照。
+- `lesson05_learning.ipynb`：16 個教學單元，最後用離線情境討論抓取完整性。
+- `lesson05_exercises.ipynb`：10 題分級練習與離線進階 Part；第 9 題連網，其餘用本機快照。
 - `lesson05_solutions.ipynb`：教師解答，含作業參考解答（不進 git）。
 - `lesson05_homework.ipynb`：3 題課後作業。
 - `fixtures/books_index.html`、`books_page2.html`、`books_page50.html`：書店首頁、第 2 頁與最後一頁。
@@ -52,6 +54,7 @@
 
 - 時間不足：只做 Core 與第 5、6、8 題；`logging` 與第 9 題改為老師示範。
 - 時間充足：加做 Challenge，讓學員把 `max_pages` 改成 `None` 抓整站，觀察紀錄與耗時。
+- 後半段安排 5–10 分鐘示範 learning 16；進階 Part 可做課後挑戰，避免壓縮核心翻頁練習。
 
 ## 課後紀錄
 
